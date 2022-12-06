@@ -34,7 +34,6 @@ class Calculator extends React.Component {
             <button className="span-row" type="button">0</button>
             <button className="s" type="button">.</button>
           </div>
-
           <div className="operators">
             <button className="operator" type="button">/</button>
             <button className="operator" type="button">+</button>
