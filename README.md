@@ -1,4 +1,4 @@
-# Tv-Shows
+# Calculator
 
 <a name="readme-top"></a>
 
@@ -122,7 +122,7 @@
 
 > Contributions, issues, and feature requests are welcome!
 
-> Feel free to check the [issues page](https://github.com/sekoviper/tv-shows/issues).
+> Feel free to check the [issues page](https://github.com/sekoviper/calculator/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
