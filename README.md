@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Amazing Movies <a name="about-project"></a>
+# 📖 Calculator <a name="about-project"></a>
 
 > A platform where you can do mathematical calculations
 
