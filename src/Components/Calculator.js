@@ -28,9 +28,9 @@ export default class Calculator extends React.Component {
     return (
       <div className="calculator">
         <div className="display">
-          <span className="results">{total}</span>
+          <span className="results">{total || total || 0}</span>
           <span className="operation">{operation}</span>
-          <span className="next">{next || 0}</span>
+          <span className="next">{next}</span>
         </div>
 
         <div className="buttons">
