@@ -24,12 +24,13 @@ export default class Calculator extends React.Component {
   }
 
   render() {
-    const { next } = this.state;
-    const { total } = this.state;
+    const { next, total, operation } = this.state;
     return (
       <div className="calculator">
         <div className="display">
-          <span className="results">{next || total || 0}</span>
+          <span className="results">{total}</span>
+          <span className="operation">{operation}</span>
+          <span className="next">{next || 0}</span>
         </div>
 
         <div className="buttons">
@@ -43,7 +44,7 @@ export default class Calculator extends React.Component {
           </div>
 
           <div className="operators">
-            <button className="operator" type="button" onClick={this.buttonClick}>/</button>
+            <button className="operator" type="button" onClick={this.buttonClick}>÷</button>
             <button className="operator" type="button" onClick={this.buttonClick}>+</button>
             <button className="operator" type="button" onClick={this.buttonClick}>-</button>
             <button className="operator" type="button" onClick={this.buttonClick}>x</button>
