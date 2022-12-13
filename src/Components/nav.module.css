@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 25px;
+}
