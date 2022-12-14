@@ -1,17 +1,17 @@
 import { render, screen } from '@testing-library/react';
 import Renderer from 'react-test-renderer';
-import Quotes from '../Quotes';
+import Home from '../Home';
 import '@testing-library/jest-dom';
 
 describe('Home component', () => {
   test('Home Component is rendered', () => {
-    render(<Quotes />);
-    const cont = screen.getByText(/Where can I get some/);
+    render(<Home />);
+    const cont = screen.getByText(/Welcome/);
     expect(cont).toBeInTheDocument();
   });
 
   test('Matches Snapshots', () => {
-    const domTree = Renderer.create(<Quotes />).toJSON();
+    const domTree = Renderer.create(<Home />).toJSON();
     expect(domTree).toMatchSnapshot();
   });
 });
