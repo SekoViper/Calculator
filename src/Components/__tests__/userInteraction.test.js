@@ -56,5 +56,5 @@ describe('Calculator component', () => {
   test('Matches Snapshots', () => {
     const domTree = Renderer.create(<Calculator />).toJSON();
     expect(domTree).toMatchSnapshot();
-  });
+  });
 });
