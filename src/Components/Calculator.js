@@ -23,7 +23,7 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <div className="display">
-        <span className="results">{total || total || 0}</span>
+        <span data-testid="total" className="results">{total || total || 0}</span>
         <span className="operation">{operation}</span>
         <span className="next">{next}</span>
       </div>
