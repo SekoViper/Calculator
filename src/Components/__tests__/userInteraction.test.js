@@ -22,3 +22,39 @@ describe('Home component', () => {
   });
 });
 
+// test for Quotes component
+describe('Quotes component', () => {
+  test('Quotes Component is rendered', () => {
+    render(<Quotes />);
+    const heading = screen.getByText(/Where can I get some/);
+    expect(heading).toBeInTheDocument();
+  });
+
+  test('Matches Snapshots', () => {
+    const domTree = Renderer.create(<Quotes />).toJSON();
+    expect(domTree).toMatchSnapshot();
+  });
+});
+
+// test for calculator component
+describe('Calculator component', () => {
+  test('Calculator Component is rendered', () => {
+    render(<Calculator />);
+
+    // Arrange
+    fireEvent.click(screen.getByText('1'));
+    fireEvent.click(screen.getByText('2'));
+    fireEvent.click(screen.getByText('+'));
+    fireEvent.click(screen.getByText('3'));
+    fireEvent.click(screen.getByText('='));
+    const result = screen.getByTestId('total');
+
+    // / Assert
+    expect(result).toHaveTextContent('15');
+  });
+
+  test('Matches Snapshots', () => {
+    const domTree = Renderer.create(<Calculator />).toJSON();
+    expect(domTree).toMatchSnapshot();
+  });
+});
