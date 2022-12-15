@@ -60,6 +60,8 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> To get a local copy up and running, follow these steps.
+
 - `npm install` --> For uploading all the necessary packages.
 
 - `npm start` --> to launch in local server
@@ -106,11 +108,23 @@
 
 <!-- AUTHOR -->
 
-👤 Seko Dameh
+👤 **Seko Dameh**
 
 - GitHub: [@SekoViper](https://github.com/SekoViper)
 - Twitter: [@SekoViper](https://twitter.com/SekoViper)
 - LinkedIn: [@livingstone-dameh](https://www.linkedin.com/in/livingstone-dameh-b755a5151/)
+
+👤 **Jerome Jay**
+
+- GitHub: @githubhandle(https://github.com/187jjay187)
+- Twitter: @twitterhandle(https://twitter.com/187jjay187)
+- LinkedIn: LinkedIn(https://linkedin.com/in/jerome-osman-137605a4)
+
+👤 **Robert O. Alabi**
+
+- GitHub: @githubhandle(https://github.com/Alabi12)
+- Twitter: @twitterhandle(https://twitter.com/wolo_robert)
+- LinkedIn: LinkedIn(https://linkedin.com/in/robert-alabi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
